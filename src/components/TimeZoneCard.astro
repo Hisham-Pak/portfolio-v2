@@ -1,11 +1,11 @@
 ---
-import { getCurrentTimeInItaly, formatTimeForItaly } from "../lib/helpers";
+import { getCurrentTimeInPakistan, formatTimeForPakistan } from "../lib/helpers";
 import Card from "./Card/index.astro";
 ---
 
 <script>
   import { onCleanup, onMount } from "solid-js";
-  import { formatTimeForItaly } from "../lib/helpers";
+  import { formatTimeForPakistan } from "../lib/helpers";
 
   let interval: ReturnType<typeof setInterval>;
 
@@ -14,7 +14,7 @@ import Card from "./Card/index.astro";
     const now = new Date();
 
     if (timeDisplay) {
-      timeDisplay.textContent = formatTimeForItaly(now);
+      timeDisplay.textContent = formatTimeForPakistan(now);
       timeDisplay.setAttribute("datetime", now.toISOString());
     }
   }
@@ -32,8 +32,8 @@ import Card from "./Card/index.astro";
   <time
     datetime=""
     id="timeDisplay"
-    class="text-2xl xl:text-5xl w-50 xl:w-100 h-[calc(100%-28px)] font-serif flex justify-center items-center"
+    class="text-2xl xl:text-5xl w-50 xl:w-100 h-[calc(100%-28px)] font-serif flex justify-center items-center whitespace-nowrap"
   >
-    {formatTimeForItaly(getCurrentTimeInItaly())}
+    {formatTimeForPakistan(getCurrentTimeInPakistan())}
   </time>
 </Card>

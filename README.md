@@ -1,4 +1,4 @@
-# ⚡️Grid-astro-portfolio⚡️
+# Portfolio v2
 
 ## A personal portfolio website made using `Astro`.
 
@@ -6,7 +6,7 @@
     <img width="500" height="auto" src="https://i.imgur.com/qB3UV2j.png" alt="homepagescreenshot" />
 </p>
 
-To view a demo example, **[click here](https://gianmarco.xyz/)**
+To view a demo example, **[click here](https://thehisham.com/)**
 
 ## Features
 
@@ -20,7 +20,7 @@ To view a demo example, **[click here](https://gianmarco.xyz/)**
 
 ```
 # Clone this repository
-$ git clone https://github.com/Ladvace/grid-astro-portfolio
+$ git clone https://github.com/Hisham-Pak/portfolio-v2
 ```
 
 ```
@@ -40,10 +40,10 @@ $ npm run dev
 
 # Deploy on Netlify 🚀
 
-Deploying your website on Netlify it's optional but I reccomand it in order to deploy it faster and easly.
+Deploying your website on Netlify it's optional but I recommend it in order to deploy it faster and easly.
 
 You just need to fork this repo and linking it to your Netlify account.
 
 ## Authors ❤️
 
-- Gianmarco - https://github.com/Ladvace
+- Hisham Mahmood - https://github.com/Hisham-Pak/
